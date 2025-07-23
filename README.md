@@ -1,4 +1,4 @@
-## 通过 npm 安装
+## 通过npm安装
 
 ```bash
 # 1. 安装 Node.js （≥ 20）
@@ -39,7 +39,7 @@ qwen
 > https://dashscope.aliyuncs.com/compatible-mode/v1
 > qwen3-coder-plus
 
-# 3.
+# 3. 输入问题
 >  Describe the main pieces of this system's architecture
 ```
 
