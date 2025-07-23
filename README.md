@@ -28,7 +28,7 @@ qwen --version
 ```
 
 
-# 使用教程
+## 使用教程
 
 ```bash
 # 1. cli启动
