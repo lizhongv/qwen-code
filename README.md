@@ -2,7 +2,10 @@
 
 ![Qwen Code Screenshot](./docs/assets/qwen-screenshot.png)
 
-Qwen Code is a command-line AI workflow tool adapted from [**Gemini CLI**](https://github.com/google-gemini/gemini-cli)(Please refer to [this document](./README.gemini.md) for more details), optimized for [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) models with enhanced parser support & tool support.
+Qwen Code is a command-line AI workflow tool adapted from [**Gemini CLI**](https://github.com/google-gemini/gemini-cli) (Please refer to [this document](./README.gemini.md) for more details), optimized for [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) models with enhanced parser support & tool support.
+
+> [!WARNING]
+> Qwen Code differs from traditional IDE code completion in several key aspects. It sends multiple requests per interaction round and leverages various tools (just as Gemini CLI or Claude Code), to accomplish tasks. This leads to distinct interaction patterns and higher token consumption. We are continuously iterating on both the API services and this experimental framework to improve performance, accuracy, and developer experience.
 
 ## Key Features
 
