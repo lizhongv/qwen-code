@@ -41,6 +41,18 @@ qwen
 
 # 3. 输入问题
 >  Describe the main pieces of this system's architecture
+
+
+
+# 或直接在shell中配置临时环境变量
+export OPENAI_API_KEY="sk-xxx"
+export OPENAI_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
+export OPENAI_MODEL="qwen3-coder-plus"
+
+# 或源码安装时在项目根目录创建 .env 文件
+OPENAI_API_KEY=sk-xxx
+OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+OPENAI_MODEL=qwen3-coder-plus
 ```
 
 
