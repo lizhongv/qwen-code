@@ -56,6 +56,22 @@ OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 OPENAI_MODEL=qwen3-coder-plus
 ```
 
+## 搭配claude-code使用
+
+```bash
+# 1. npm 安装
+npm install -g @anthropic-ai/claude-code
+
+# 2. 验证安装
+claude --version
+
+# 3. 使用
+export ANTHROPIC_BASE_URL="https://dashscope-intl.aliyuncs.com/api/v2/apps/claude-code-proxy"
+export ANTHROPIC_AUTH_TOKEN="sk-8aef464eb019408f94dc3cc5ef63d46e"
+
+
+```
+
 
 ## 相关参考
 
