@@ -2,6 +2,7 @@
 
 ```bash
 # 1. 安装 Node.js （≥ 20）
+node -v  # 查看node版本
 curl -qL https://www.npmjs.com/install.sh | sh
 
 # 2. 全局安装 qwen-code
