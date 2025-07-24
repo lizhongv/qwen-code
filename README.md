@@ -67,13 +67,11 @@ claude --version
 
 # 3. 使用
 export ANTHROPIC_BASE_URL="https://dashscope-intl.aliyuncs.com/api/v2/apps/claude-code-proxy"
-export ANTHROPIC_AUTH_TOKEN="sk-8aef464eb019408f94dc3cc5ef63d46e"
-
-
+export ANTHROPIC_AUTH_TOKEN="sk-xxx"
 ```
 
 
 ## 相关参考
 
 1. https://www.kdjingpai.com/qwen-codejiyu-g/
-2. 
+
